@@ -1,4 +1,4 @@
-# **Bidirectional Traveling Salesman Problem(TSP) Solver**
+# **Bidirectional Traveling Salesman Problem(TSP)**
 
 ## The Traveling Salesman Problem:
 - The bidirectional traveling salesman problem involves finding the most efficient and optimal route that visits a set of nodes and returns to the starting node, minimizing the total traversal cost.
