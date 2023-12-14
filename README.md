@@ -10,6 +10,6 @@
 
 ### Implementing Stochastic Local Search:
 - In addition to the BnB DFS method, this project implements a Stochastic Local Search algorithm to solve the TSP.
-- SLS algorithms leverage randomness to explore the search space and determine the neighborhood of a solution by identifying states or solutions that are adjacent to the current known solution.
+- SLS algorithms leverage randomness to explore the search space and determines the neighborhood of a solution by identifying states or solutions that are adjacent to the current known solution.
 - The neighborhood directly influences the exploration of the state space and refers to the set of potential moves that can be applied to the current solution in the search process.
 - Our approach of developing a SLS algorithm can strategically circumvent issues that traditional local search algorthms encounter in regards to local minima and maxima.
