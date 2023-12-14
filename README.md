@@ -6,10 +6,11 @@
 
 ### Implementing Branch and Bound Depth-First Search:
 - The Branch and Bound Depth-First Search algorithm used in this project utilizes a systematic approach to combinitorial optimization that systematically explores the search space while using upper and lower bounds to prune the branches that cannot lead to an optimal solution.
+- We created a greedy least path heuristic that finds the least-cost path by greedily selecting the nearest unvisited node at each step, aiming to minimize the total cost of traversal in the graph.
 - The Depth-First Search strategy efficiently traverses the search space, making it a suitable technique for solving this complex optimization problem.
 
 ### Implementing Stochastic Local Search:
 - In addition to the BnB DFS method, this project implements a Stochastic Local Search algorithm to solve the TSP.
 - SLS algorithms leverage randomness to explore the search space and determines the neighborhood of a solution by identifying states or solutions that are adjacent to the current known solution.
-- The neighborhood directly influences the exploration of the state space and refers to the set of potential moves that can be applied to the current solution in the search process.
+- Our SLS algorithm iteratively explores different permutations of nodes, attempting to minimize the total cost of a tour, while incorporating variance calculation and randomness to escape local optima.
 - Our approach of developing a SLS algorithm can strategically circumvent issues that traditional local search algorthms encounter in regards to local minima and maxima.
