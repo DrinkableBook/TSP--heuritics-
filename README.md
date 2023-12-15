@@ -14,3 +14,9 @@
 - SLS algorithms leverage randomness to explore the search space and determines the neighborhood of a solution by identifying states or solutions that are adjacent to the current known solution.
 - Our SLS algorithm iteratively explores different permutations of nodes, attempting to minimize the total cost of a tour, while incorporating variance calculation and randomness to escape local optima.
 - Our approach of developing a SLS algorithm can strategically circumvent issues that traditional local search algorthms encounter in regards to local minima and maxima.
+
+#### Build Instructions/How to Set Up:
+- Clone the repository (git clone <https://github.com/DrinkableBook/TSP--heuritics->)
+- Open "loader.py"
+- Install dependencies (numpy, random, statistics, tracemalloc, time)
+- Run the code (Note on changing search space: run the problem generator with desired input and/or change the " .out" file to the desired search space)
